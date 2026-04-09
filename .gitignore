@@ -1,0 +1,8 @@
+node_modules
+pnpm-lock.yaml
+coverage
+dist
+.DS_Store
+# ignore the all .tgz files recursively in the project
+**/*.tgz
+

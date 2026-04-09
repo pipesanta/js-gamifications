@@ -1,0 +1,24 @@
+{
+  "name": "@js-gamifications/monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Gamification packages for web frameworks",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && pnpm changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "tsup": "^8.4.0",
+    "vitest": "^3.1.1"
+  }
+}

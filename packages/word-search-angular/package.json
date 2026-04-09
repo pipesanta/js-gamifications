@@ -1,0 +1,44 @@
+{
+  "name": "@js-gamifications/word-search-angular",
+  "version": "1.0.1",
+  "description": "Angular bindings for word search puzzles",
+  "license": "MIT",
+  "main": "./dist/fesm2022/js-gamifications-word-search-angular.mjs",
+  "module": "./dist/fesm2022/js-gamifications-word-search-angular.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/fesm2022/js-gamifications-word-search-angular.mjs"
+    }
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "clean": "rm -rf dist",
+    "typecheck": "ng-packagr -p ng-package.json",
+    "test": "vitest run --passWithNoTests",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@js-gamifications/word-search-core": "workspace:^"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17",
+    "@angular/core": ">=17",
+    "@angular/forms": ">=17",
+    "rxjs": ">=7"
+  },
+  "devDependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/compiler-cli": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "ng-packagr": "^20.0.1",
+    "rxjs": "^7.8.2",
+    "tslib": "^2.8.1"
+  }
+}
