@@ -12,7 +12,8 @@
     "lint": "pnpm -r lint",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm build && pnpm changeset publish"
+    "release": "pnpm build && pnpm changeset publish",
+    "publish:word-search": "pnpm install --frozen-lockfile && pnpm -r --filter \"@js-gamifications/word-search-*\" build && pnpm -r --filter \"@js-gamifications/word-search-*\" publish --access public --no-git-checks"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",

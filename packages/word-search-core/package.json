@@ -1,8 +1,17 @@
 {
   "name": "@js-gamifications/word-search-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Framework-agnostic word search engine",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipesanta/js-gamifications.git",
+    "directory": "packages/word-search-react"
+  },
+  "homepage": "https://github.com/pipesanta/js-gamifications/tree/main/packages/word-search-react",
+  "bugs": {
+    "url": "https://github.com/pipesanta/js-gamifications/issues"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

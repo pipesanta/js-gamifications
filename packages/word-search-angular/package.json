@@ -1,8 +1,17 @@
 {
   "name": "@js-gamifications/word-search-angular",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular bindings for word search puzzles",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipesanta/js-gamifications.git",
+    "directory": "packages/word-search-react"
+  },
+  "homepage": "https://github.com/pipesanta/js-gamifications/tree/main/packages/word-search-react",
+  "bugs": {
+    "url": "https://github.com/pipesanta/js-gamifications/issues"
+  },
   "main": "./dist/fesm2022/js-gamifications-word-search-angular.mjs",
   "module": "./dist/fesm2022/js-gamifications-word-search-angular.mjs",
   "types": "./dist/index.d.ts",
